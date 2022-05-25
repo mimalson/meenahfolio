@@ -1,8 +1,8 @@
 import React from 'react'
 import "./footer.css"
-// import {RiFacebookFill} from 'react-icons/ri'
-// import {BsInstagram} from 'react-icons/bs'
-// import {IoLogoTwitter} from 'react-icons/io'
+import {RiFacebookFill} from 'react-icons/ri'
+import {BsInstagram} from 'react-icons/bs'
+import {IoLogoTwitter} from 'react-icons/io'
 
 const footer = () => {
   return (
@@ -31,9 +31,9 @@ const footer = () => {
       </ul>
 
       <div className="footer__socials">
-        {/* <a href="https://facebook.com"><RiFacebookFill /></a>
+        <a href="https://facebook.com"><RiFacebookFill /></a>
         <a href="https://twitter.com"><BsInstagram/></a> 
-        <a href="https://instagram.com"><IoLogoTwitter/></a> */}
+        <a href="https://instagram.com"><IoLogoTwitter/></a> 
       </div>
 
       <div className="love">
