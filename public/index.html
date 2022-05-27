@@ -3,10 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="./avatar1.jpg">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>React Portfolio</title>
 </head>
+
+<style>
+    .loading{
+        background: #1f1f38;
+        height: 6rem;
+        width: 6rem;
+    }
+
+    .loading_con{
+        align-items: center;
+        background: white;
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        width: 100vw;
+    }
+</style>
 <body>
+
+    <div id="spinner" class="loading_con">
+        <img src="./avatar1.jpg" alt="">
+    </div>
     <div id="root"></div>
 </body>
 </html>
