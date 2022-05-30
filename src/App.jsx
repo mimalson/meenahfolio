@@ -1,4 +1,5 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
+import loading from './components/Loading/loading'
 import Header from "./components/Header/header"
 import Nav from "./components/Nav/nav"
 import About from "./components/About/about"
@@ -10,16 +11,20 @@ import Contact from "./components/Contact/contact"
 import Footer from "./components/Footer/footer"
 
 const App = () => {
-  const[loading, setloading] = useState(true)
-  const spinner = document.getElementById("spinner")
-  if (spinner) {
+  const [isLoading, setIsLoading] = useState(false)
+  useEffect(() => {
+    setIsLoading(true)
     setTimeout(() => {
-      spinner.style.display = "none"
-      setloading(false);
+      setIsLoading(false)
     }, 2000)
-  }
+  }, [])
+
+
   return (
-    !loading &&(
+    <div>
+      {isLoading == true ?
+      <loading/> 
+      :
       <>
       <Header />
       <Nav />
@@ -31,9 +36,11 @@ const App = () => {
       <Contact />
       <Footer />
     </>
-    )
+}
+    </div>
+      
     
   )
-}
+  }
 
 export default App
