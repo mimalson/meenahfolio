@@ -33,14 +33,14 @@ const contact = () => {
             <FaTwitter className='contact__option-icon'/>
             <h4>Twitter</h4>
             <h5>Muhammed Bliss</h5>
-            <a href="https://twitter.com/simply_meenat" target='_blank' >Send a Message</a>
+            <a href="https://twitter.com/simply_meenat" target='_blank' rel="noreferrer" >Send a Message</a>
           </article>
 
           <article className="contact__option">
             <BsWhatsapp className='contact__option-icon'/>
             <h4>WhatsApp</h4>
             <h5>+234567890</h5>
-            <a href="http://api.whatsapp.com/send?phone+2348142974615" target='_blank'>Send a Message</a>
+            <a href="http://api.whatsapp.com/send?phone+2348142974615" target='_blank' rel="noreferrer">Send a Message</a>
           </article>
         </div>
 

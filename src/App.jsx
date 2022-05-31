@@ -1,5 +1,4 @@
-import React, {useState, useEffect} from 'react'
-import loading from './components/Loading/loading'
+import React, {useState} from 'react'
 import Header from "./components/Header/header"
 import Nav from "./components/Nav/nav"
 import About from "./components/About/about"
