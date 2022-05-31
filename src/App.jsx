@@ -11,36 +11,33 @@ import Contact from "./components/Contact/contact"
 import Footer from "./components/Footer/footer"
 
 const App = () => {
-  const [isLoading, setIsLoading] = useState(false)
-  useEffect(() => {
-    setIsLoading(true)
+  const [loading, setLoading] = useState(true);
+  const spinner = document.getElementById("spinner");
+  if (spinner) {
     setTimeout(() => {
-      setIsLoading(false)
-    }, 2000)
-  }, [])
-
+      spinner.style.display = "none";
+      setLoading(false);
+    }, 3000);
+  }
+  
 
   return (
-    <div>
-      {isLoading == true ?
-      <loading/> 
-      :
-      <>
-      <Header />
-      <Nav />
-      <About />
-      <Experience />
-      <Services />
-      <Portfolio />
-      <Testimonials />
-      <Contact />
-      <Footer />
-    </>
-}
-    </div>
-      
-    
+       !loading && (
+        <>
+        <Header />
+        <Nav />
+        <About />
+        <Experience />
+        <Services />
+        <Portfolio />
+        <Testimonials />
+        <Contact />
+        <Footer />
+      </>  
+       )
+       
   )
+
   }
 
 export default App
