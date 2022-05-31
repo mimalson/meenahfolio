@@ -37,7 +37,7 @@ const footer = () => {
       </div>
 
       <div className="love">
-        <small>made with love b Amina</small>
+        <small>❤️ and ✨ Always, from Amina</small>
       </div>
     </footer>
   )
