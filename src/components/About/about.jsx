@@ -14,7 +14,7 @@ const about = () => {
      <div className=" container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={ME} alt="About-Image" />
+            <img src={ME} alt="About" />
           </div>
         </div>
 
@@ -44,7 +44,7 @@ const about = () => {
             doloremque ratione praesentium, voluptatum provident enim aliquam iste, sint dicta. Officiis beatae quaerat aperiam blanditiis repudiandae laboriosam.
           </p>
 
-          <a href="" className='btn btn-primary'>Let's Talk</a>
+          <a href="https://github.com/mimalson/meenahfolio/" className='btn btn-primary'>Let's Talk</a>
         </div>
       </div>
     </section>
