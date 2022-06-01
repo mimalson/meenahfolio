@@ -40,8 +40,9 @@ const about = () => {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus fuga amet sapiente itaque 
-            doloremque ratione praesentium, voluptatum provident enim aliquam iste, sint dicta. Officiis beatae quaerat aperiam blanditiis repudiandae laboriosam.
+            I’m a talented, ambitious, and self-motivated frontend developer 
+            and technical writer with a solid technical background and useful skills 
+            ranging from self-discipline, teamwork, and the ability to work with minimum supervision.
           </p>
 
           <a href="https://github.com/mimalson/meenahfolio/" className='btn btn-primary'>Let's Talk</a>
