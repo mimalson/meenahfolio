@@ -43,6 +43,11 @@ const about = () => {
             I’m a talented, ambitious, and self-motivated frontend developer 
             and technical writer with a solid technical background and useful skills 
             ranging from self-discipline, teamwork, and the ability to work with minimum supervision.
+            
+            <br> 
+             I'm capable of playing a key front-end role with intermediate knowledge of core front-end 
+            technologies, frameworks, and libraries. I deliver pixel-perfect UIs while ensuring maximum accessibility, 
+            user-friendliness, and usability.
           </p>
 
           <a href="https://github.com/mimalson/meenahfolio/" className='btn btn-primary'>Let's Talk</a>
